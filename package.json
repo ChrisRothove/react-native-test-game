@@ -5,6 +5,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
+    "lint": "eslint src/ --ext .js,.jsx || true",
+    "fix": "eslint --fix src/ --ext .js,.jsx || true",
     "eject": "expo eject"
   },
   "dependencies": {
