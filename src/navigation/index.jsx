@@ -7,11 +7,12 @@ import SceneLogin from '../scenes/auth/sceneLogin'
 import SceneHome from '../scenes/auth/sceneHome'
 import SceneSettings from '../scenes/auth/sceneSettings'
 import SceneGameHome from '../scenes/game/sceneGameHome'
+import { navigationRef } from './RootNavigation'
 
 const Stack = createStackNavigator()
 
 const Navigation = () => (
-    <NavigationContainer>
+    <NavigationContainer ref={navigationRef}>
         <Stack.Navigator initialRouteName="Splash" screenOptions={{ headerShown: false }}>
             <Stack.Screen name="Splash" component={SceneSplash} />
             <Stack.Screen name="AppLoading" component={SceneAppLoading} />
