@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Text, TextInput, Button } from 'react-native'
 import { connect } from 'react-redux'
 import PropTypes from 'prop-types'
-import DefaultPage from '../../components/DefaultPage'
+import DefaultPage from '../../components/global/layout/DefaultPage'
 import { userLogin } from '../../redux/actions/user.actions'
 
 const SceneLogin = ({ loginUser, isUserLoggedIn, storedUserName }) => {
