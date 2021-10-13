@@ -4,7 +4,7 @@ import DefaultPage from '../../components/DefaultPage'
 
 const SceneAppLoading = () => (
     <DefaultPage>
-        <Text>App loading</Text>
+        <Text>Loading...</Text>
     </DefaultPage>
 )
 

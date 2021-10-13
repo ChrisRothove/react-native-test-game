@@ -1,10 +1,12 @@
 import React from 'react'
 import { Text } from 'react-native'
 import DefaultPage from '../../components/DefaultPage'
+import RockPaperScissorsLizardSpock from '../../components/other/RockPaperScissorsLizardSpock'
 
 const SceneGameHome = () => (
     <DefaultPage>
         <Text>Game Home</Text>
+        <RockPaperScissorsLizardSpock />
     </DefaultPage>
 )
 
